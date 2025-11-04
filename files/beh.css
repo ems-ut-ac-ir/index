@@ -3,27 +3,27 @@
 /*place holder font size*/
 @font-face {
   font-family: "BTahoma";
-  src: url("./_fonts/TTahoma.ttf") format("truetype"), url("./_fonts/TTahoma.woff") format("woff");
+  src: url("./fonts/TTahoma.ttf") format("truetype"), url("./fonts/TTahoma.woff") format("woff");
 }
 
 @font-face {
   font-family: farhang;
-  src: url("./_fonts/farhang/FarhangFaNum-DemiBold.woff") format("woff"), url("./_fonts/farhang/FarhangFaNum-DemiBold.woff2") format("woff2");
+  src: url("./fonts/farhang/FarhangFaNum-DemiBold.woff") format("woff"), url("./fonts/farhang/FarhangFaNum-DemiBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: Farhang-Regular;
-  src: url("./_fonts/farhang/Farhang-Regular.woff") format("woff"), url("./_fonts/farhang/Farhang-Regular.woff2") format("woff2");
+  src: url("./fonts/farhang/Farhang-Regular.woff") format("woff"), url("./fonts/farhang/Farhang-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: farhang-latin;
-  src: url("./_fonts/farhang/Farhang-Regular.woff") format("woff"), url("./_fonts/farhang/Farhang-Regular.woff2") format("woff2");
+  src: url("./fonts/farhang/Farhang-Regular.woff") format("woff"), url("./fonts/farhang/Farhang-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "npglyphs";
-  src: url("./_fonts/npglyphs.ttf") format("truetype"), url("./_fonts/npglyphs.woff") format("woff");
+  src: url("./fonts/npglyphs.ttf") format("truetype"), url("./fonts/npglyphs.woff") format("woff");
 }
 
 .npDropdown {
