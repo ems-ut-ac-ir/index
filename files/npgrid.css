@@ -1,0 +1,209 @@
+.npgrid-header {
+	/*font-family:  BTahoma,"golestan system";*/
+	font-weight: normal;
+	position: relative;
+	
+}
+.npgrid-sort{
+   position: absolute;
+   top:0px;
+   left: 0px;
+}
+.ui-npgrid TR TD, .ui-npgrid select {
+	/*font-family:"BTahoma";*/
+	font-size:9pt;
+   font-weight:normal;
+   /*text-align:start;*/ 
+}
+
+div.npgrid-body, table.npgrid-table-body {
+	/*font-family:  BTahoma,"golestan system";*/
+}
+
+div.ui-npgrid button.npButton span.ui-button-text{
+	padding:0px;
+}
+div.ui-npgrid button.npButton span.ui-icon{
+}
+
+.npgrid-body-cell {
+	/*text-overflow: ellipsis;*/
+	padding-right: 2px;	
+	padding-to_p: 5px;	
+	padding-botto_m: 5px;
+   white-space:pre-line;
+   word-wrap:break-word;
+   line-height:200%;
+}
+.TR-NoTdPadding td.npgrid-body-cell {
+   padding: 0px;  
+}
+
+.ui-resizable {
+	position: relative;
+}
+.ui-resizable-e {
+	cursor: e-resize;
+	width: 7px;
+	right: -5px;
+	top: 0;
+	height: 100%;
+}
+
+.npgrid-table-header {
+	table-layout: fixed;
+	border-collapse: collapse;
+	height: 100%;
+}
+.npgrid-table-body {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.npgrid-highlight {
+	background-image: none;
+	background-color: red;
+}
+
+
+.ui-widget-content .TR-NPGrid{
+	background-image: none;
+}
+.TR-npgrid-hover.TR-NPGrid,.TR-npgrid-hover.TR-NPGrid.ui-widget-content{
+
+}
+/*.npgrid-table-body td, .npgrid-table-header th {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}*/
+
+.np-hypertext {
+	color:blue;
+	cursor: pointer;
+	text-decoration: underline;
+	
+}
+
+.np-icon-fhelp {
+   background-position:0 0;
+}
+.np-icon-nex {
+   background-position:-32px 0;
+}
+.np-icon-prv {
+   background-position:-48px 0;
+}
+.np-icon-first {
+   background-position:-64px 0;
+}
+.np-icon-last {
+   background-position:-16px 0;
+}
+
+.np-icon-menu {
+   background-position:-80px 0;
+}
+.np-icon-check {
+   background-position:-96px 0;
+}
+
+.np-icon-sortd1 {
+   background-position:0px -16px;
+}
+.np-icon-sortd2 {
+   background-position:-16px -16px;
+}
+.np-icon-sortd3 {
+   background-position:-32px -16px;
+}
+.np-icon-sortd4 {
+   background-position:-48px -16px;
+}
+.np-icon-sortd5 {
+   background-position:-64px -16px;
+}
+.np-icon-sortd6 {
+   background-position:-80px -16px;
+}
+.np-icon-sortd7 {
+   background-position:-96px -16px;
+}
+.np-icon-sortd8 {
+   background-position:-112px -16px;
+}
+.np-icon-sortd9 {
+   background-position:-128px -16px;
+}
+.np-icon-sortd {
+   /*
+   background-position:-144px -16px;
+   */
+   font-size: 11px;
+   color: #b3acac;
+}
+
+.np-icon-sorta1 {
+   background-position:0px -32px;
+}
+.np-icon-sorta2 {
+   background-position:-16px -32px;
+}
+.np-icon-sorta3 {
+   background-position:-32px -32px;
+}
+.np-icon-sorta4 {
+   background-position:-48px -32px;
+}
+.np-icon-sorta5 {
+   background-position:-64px -32px;
+}
+.np-icon-sorta6 {
+   background-position:-80px -32px;
+}
+.np-icon-sorta7 {
+   background-position:-96px -32px;
+}
+.np-icon-sorta8 {
+   background-position:-112px -32px;
+}
+.np-icon-sorta9 {
+   background-position:-128px -32px;
+}
+.np-icon-sorta {
+  /* background-position:-144px -32px;*/
+  font-size: 11px;
+  color: #b3acac;
+}
+.np-icon-sorta:before {
+   content: "\e86b";
+ }
+ .np-icon-sortd:before {
+   content: "\e3c8";
+ }
+td.npgrid-body-cell span{
+     word-wrap:break-word;
+ 
+}
+.TextBoxClass{
+   background-color:#f3eebc !important;
+}
+.ui-npgrid p{
+   margin-bottom: 0px;
+}
+
+.npgrid-alert-success{
+   background:#ddffdd
+   
+}
+
+div[id*='RepDataParent'] td.npgrid-body-cell.nobr span {
+   word-wrap: break-word;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+
+/* jqgrid */
+
+.np-jqgrid-light-shadow { background : none ; background-color : #e0e0e0 !important ; /*opacity: .30; filter:Alpha(Opacity=30);*/}
+.np-jqgrid-pink  { background-image : none ; background-color : pink !important ; /*opacity: .30;*/ filter:Alpha(Opacity=30);}
+.np-jqgrid-white { background-image : none ; background-color : white !important; /*opacity: .30;*/ filter:Alpha(Opacity=30);}
